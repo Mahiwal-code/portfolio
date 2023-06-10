@@ -14,7 +14,7 @@ const Home = () => {
           Mahiwal
         </h1>
         <h2 className="tet-4xl sm:text-7xl font-bold text-[rgb(127,127,130)]">
-          I'm a full-stack developer
+          I'm a frontend developer
         </h2>
         <p className="text-[rgb(127,127,127)] py-4 max-w-[700px]">
           A dedicated and highly motivated developer with proficiency in python

@@ -39,7 +39,7 @@ const Navbar = () => {
           </li>
           <li>
             {" "}
-            <a href="#work" className="line">
+            <a href="#project" className="line">
               {" "}
               Project
             </a>
