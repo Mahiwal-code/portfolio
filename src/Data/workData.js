@@ -18,7 +18,7 @@ export const workData = [
     description:
       "A note taking application built using HTML, CSS and JS. It is a fun application to play with.",
     image: Notetaking,
-    link: "https://www.google.com",
+    link: "http://good-note.netlify.app/",
     github: "https://www.github.com",
   },
   {

@@ -10,7 +10,7 @@ const Home = () => {
       {/*container*/}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[rgb(161,207,240)]">Hi! my name is </p>
-        <h1 className="tet-4xl sm:text-7xl font-bold text-[rgb(255,255,255)]">
+        <h1 className="text-5xl sm:text-7xl font-bold text-[rgb(255,255,255)]">
           Mahiwal
         </h1>
         <h2 className="tet-4xl sm:text-7xl font-bold text-[rgb(127,127,130)]">
