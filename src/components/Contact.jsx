@@ -13,7 +13,7 @@ export default function Contact() {
         Let's Connect!
       </p>
       <div className="w-full  md:hidden flex ">
-        <ul className="flex w-full md:gap-5 gap-3 justify-center">
+        <ul className="flex w-full md:gap-5 gap-1 justify-center">
           <li className="px-2 py-1 flex justy-between items-center   bg-[rgb(33,53,83)] shadow-lg hover:scale-105 rounded-full transition duration-300 shadow-slate-600 group/color text-sm">
             <a
               className="flex justify-between items-center w-full text-gray-300"

@@ -3,7 +3,10 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
   return (
-    <div className="w-full h-screen bg-[#512857] relative" id="home">
+    <div
+      className="w-full min-h-screen bg-[#512857] relative pt-32 pb-20"
+      id="home"
+    >
       {/*container*/}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[rgb(161,207,240)]">Hi! my name is </p>
@@ -32,7 +35,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className=" absolute bottom-10  w-full flex items-center justify-center">
+      <div className=" absolute bottom-1  w-full flex items-center justify-center">
         <p className="h-10 flex gap-5  items-center">
           <span className="w-1 h-1 rounded-full bg-slate-400 block"></span>
           <span className="w-2 h-2 rounded-full bg-slate-300 block"></span>

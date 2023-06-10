@@ -6,7 +6,7 @@ function Skills() {
   return (
     <div
       name="skills"
-      className=" w-full h-screen bg-[rgb(82,45,93)] text-gray-300 py-20 relative "
+      className=" w-full min-h-screen bg-[rgb(82,45,93)] text-gray-300 py-20 relative "
       id="skills"
     >
       {/*Container*/}
@@ -29,7 +29,7 @@ function Skills() {
           ))}
         </div>
       </div>
-      <div className=" absolute bottom-5  w-full flex items-center justify-center">
+      <div className=" absolute bottom-1  w-full flex items-center justify-center">
         <p className="h-10 flex gap-5  items-center">
           <span className="w-1 h-1 rounded-full bg-slate-400 block"></span>
           <span className="w-2 h-2 rounded-full bg-slate-300 block"></span>

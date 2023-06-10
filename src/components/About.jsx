@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-[rgb(148,77,154)] text-[rgb(216,203,203)] relative "
+      className="w-full min-h-screen bg-[rgb(148,77,154)] text-[rgb(216,203,203)] relative flex items-center justify-center py-20"
       id="about"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
@@ -32,7 +32,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" absolute bottom-10  w-full flex items-center justify-center">
+      <div className=" absolute bottom-1  w-full flex items-center justify-center">
         <p className="h-10 flex gap-5  items-center">
           <span className="w-1 h-1 rounded-full bg-slate-400 block"></span>
           <span className="w-2 h-2 rounded-full bg-slate-300 block"></span>

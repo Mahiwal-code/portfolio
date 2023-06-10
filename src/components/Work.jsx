@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-full md:min-h-screen text-gray-300 bg-[#472768] pt-20 pb-10 relative"
+      className="w-full min-h-screen text-gray-300 bg-[#472768] py-20 relative"
       id="work"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -45,7 +45,7 @@ const Work = () => {
           ))}
         </div>
       </div>
-      <div className=" absolute bottom-5  w-full flex items-center justify-center">
+      <div className=" absolute bottom-1  w-full flex items-center justify-center">
         <p className="h-10 flex gap-5  items-center">
           <span className="w-1 h-1 rounded-full bg-slate-400 block"></span>
           <span className="w-2 h-2 rounded-full bg-slate-300 block"></span>
