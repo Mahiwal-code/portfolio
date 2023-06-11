@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import ThreeDot from "./ThreeDot";
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
         <div>
           <button className="">
             <a
-              href="#work"
+              href="#project"
               className="text-[rgb(156,175,242)] group px-6 py-3 my-2 flex items-center hover:bg-[rgb(33,53,83)] hover:border-[#512857]"
             >
               View work
@@ -35,15 +36,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className=" absolute bottom-1  w-full flex items-center justify-center">
-        <p className="h-10 flex gap-5  items-center">
-          <span className="w-1 h-1 rounded-full bg-slate-400 block"></span>
-          <span className="w-2 h-2 rounded-full bg-slate-300 block"></span>
-          <span className="w-3 h-3 rounded-full bg-slate-200 block"></span>
-          <span className="w-2 h-2 rounded-full bg-slate-300 block"></span>
-          <span className="w-1 h-1 rounded-full bg-slate-400 block"></span>
-        </p>
-      </div>
+      <ThreeDot />
     </div>
   );
 };

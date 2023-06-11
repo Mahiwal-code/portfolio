@@ -1,6 +1,7 @@
 import React from "react";
 
 import { workData } from "../Data/workData";
+import ThreeDot from "./ThreeDot";
 
 const Work = () => {
   return (
@@ -45,15 +46,7 @@ const Work = () => {
           ))}
         </div>
       </div>
-      <div className=" absolute bottom-1  w-full flex items-center justify-center">
-        <p className="h-10 flex gap-5  items-center">
-          <span className="w-1 h-1 rounded-full bg-slate-400 block"></span>
-          <span className="w-2 h-2 rounded-full bg-slate-300 block"></span>
-          <span className="w-3 h-3 rounded-full bg-slate-200 block"></span>
-          <span className="w-2 h-2 rounded-full bg-slate-300 block"></span>
-          <span className="w-1 h-1 rounded-full bg-slate-400 block"></span>
-        </p>
-      </div>
+      <ThreeDot />
     </div>
   );
 };
