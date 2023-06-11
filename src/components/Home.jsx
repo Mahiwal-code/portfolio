@@ -5,7 +5,7 @@ import ThreeDot from "./ThreeDot";
 const Home = () => {
   return (
     <div
-      className="w-full min-h-screen bg-[#512857] relative pt-32 pb-20"
+      className="w-full min-h-max bg-[#512857] relative pt-32 pb-20"
       id="home"
     >
       {/*container*/}
