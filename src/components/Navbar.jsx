@@ -13,7 +13,12 @@ const Navbar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[rgb(33,53,83)] text-gray-50  top-0 left-0 scroll-smooth shadow-lg z-50">
       <div>
         <a href="/">
-          <img src={logo} alt="Logo" style={{ width: "150px" }} />
+          <img
+            src={logo}
+            alt="Logo"
+            className="animate-pulse "
+            style={{ width: "150px" }}
+          />
         </a>
       </div>
       {/*menu*/}
